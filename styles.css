@@ -1,0 +1,65 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Manrope', sans-serif;
+    background-color: hsl(218, 23%, 16%);
+    color: hsl(193, 38%, 86%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 375px;
+    text-align: center;
+  }
+  
+  .advice-box {
+    background-color: hsl(217, 19%, 24%);
+    padding: 2rem;
+    border-radius: 10px;
+    position: relative;
+  }
+  
+  .advice-id {
+    color: hsl(150, 100%, 66%);
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .advice-text {
+    font-size: 1.75rem;
+    margin: 1rem 0;
+  }
+  
+  .divider {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .dice-btn {
+    background-color: hsl(150, 100%, 66%);
+    height: auto;
+    border: none;
+    padding: 1rem;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .dice-btn:hover {
+    /* background-color: hsl(193, 38%, 86%); */
+    box-shadow: 0 0 15px hsl(150, 100%, 66%);
+  }
+  
